@@ -15,7 +15,7 @@ public class AthleticGameBasicTest {
 	
 	@Test(expected=IllegalArgumentException.class)
 	public void invalidPartecipantWork(){
-		athleticGame.getParecipiantTime("Nuccia");
+		athleticGame.getParecipiantTime("NucciaOliveri");
 	}
 	
 	
